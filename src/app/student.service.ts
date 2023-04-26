@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Student } from './student';
-import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 
 @Injectable({
