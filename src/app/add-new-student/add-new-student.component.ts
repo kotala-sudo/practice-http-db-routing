@@ -8,7 +8,7 @@ import { Student } from '../student';
   styleUrls: ['./add-new-student.component.css'],
 })
 export class AddNewStudentComponent implements OnInit {
-  nextID: number = 0;
+  nextID: number = 5; //next id to assign
   sName: string;
   sAge: number;
 
